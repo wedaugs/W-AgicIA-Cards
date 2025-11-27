@@ -27,7 +27,7 @@ O sistema permite que o usuário filtre as cartas por **Raridade** e/ou **Preço
 
 O design foi pensado para destacar as ilustrações das cartas, com um tema escuro (Dark Mode) para imersão.
 
-![GIF do Projeto](Src\Imagens\mAGICcARDS.gif)
+![Demonstração do Projeto](.Src/Imagens/magics-cards.gif)
 
 ---
 
