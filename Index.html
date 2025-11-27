@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W-AgicIA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./Src/Css/reset.css">
+    <link rel="stylesheet" href="./Src/Css/estilos.css">
+    <link rel="stylesheet" href="./Src/Css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./Src/Imagens/logo.png" alt="Logo W-AgicIA">
+    </header>
+    <main class="container">
+        <h1 class="produtos">Produtos</h1>
+        <div class="filtros">
+            <div class="categoria-cartas">
+                <label for="categoria">Categoria</label>
+                <select id="categoria" class="categoria">
+                    <option value="">Selecione uma Raridade</option>
+                    <option value="comum">Comum</option>
+                    <option value="rara">Rara</option>
+                    <option value="épica">Épica</option>
+                    <option value="lendária">Lendária</option>
+                <select>
+            </div>
+            <div class="preco-cartas">
+                <label for="preco">Preço máximo (R$)</label>
+                <input type="text" id="preco" class="preco" placeholder="Ex: 1000">
+            </div>
+            <button class="btn-filtrar">Aplicar filtros</button>
+        </div>
+        <ul class="cartas">
+            <li class="carta" data-categoria="comum" data-preco="900">
+                <img src="./Src/imagens/carta-aeliana.png" alt="">
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Aeliana</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 900,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Aeliana" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="épica" data-preco="4500">
+                <img src="./src/imagens/carta-drakon.png" alt="Carta Drakon" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Drakon</h2>
+                    <span class="categoria">Categoria: Épica</span>
+                    <span class="preco">R$ 4500,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Drakon" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="600">
+                <img src="./src/imagens/carta-elara.png" alt="Carta Elara" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Elara</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 600,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Elara"
+                        class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="500">
+                <img src="./src/imagens/carta-elowen.png" alt="Carta Elowen" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Elowen</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 500,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Elowen" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="rara" data-preco="1700">
+                <img src="./src/imagens/carta-zareth.png" alt="Carta Zareth" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Zareth</h2>
+                    <span class="categoria">Categoria: Rara</span>
+                    <span class="preco">R$ 1700,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Zareth" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="rara" data-preco="2600">
+                <img src="./src/imagens/carta-grommash.png" alt="Carta Grommash" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Grommash</h2>
+                    <span class="categoria">Categoria: Rara</span>
+                    <span class="preco">R$ 2600,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Grommash"
+                        class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="800">
+                <img src="./Src/imagens/carta-kaelen.png" alt="">
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Kaelen</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 800,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Kaelen" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="650">
+                <img src="./src/imagens/carta-morwenna.png" alt="Carta Morwenna" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Morwenna</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 650,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Morwenna" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="rara" data-preco="2200">
+                <img src="./src/imagens/carta-nekros.png" alt="Carta Nekros" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Nekros</h2>
+                    <span class="categoria">Categoria: Rara</span>
+                    <span class="preco">R$ 2200,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Nekros"
+                        class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="400">
+                <img src="./src/imagens/carta-silvane.png" alt="Carta Silvane" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Silvane</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 400,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Silvane" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="800">
+                <img src="./src/imagens/carta-vaelis.png" alt="Carta Vaelis" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Vaelis</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 800,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Vaelis" class="btn-comprar"
+                        target="_blank">Comprar</a>
+                </div>
+            </li>
+            <li class="carta" data-categoria="comum" data-preco="600">
+                <img src="./src/imagens/carta-valerius.png" alt="Carta Valerius" />
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Valerius</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 600,00</span>
+                    <a href="http://wa.me/55249999999?text=Olá, gostaria de comprar a carta Valerius"
+                        class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+        </ul>
+        <div id="mensagem-sem-resultados" class="mensagem-sem-resultados">
+            <p>Nenhuma carta encontrada com esses filtros🧙</p >
+        </div>
+    </main>
+    <footer class="rodape">@2025 - Desenvolvido por Wederson A Santos</footer>
+</body>
+
+<script src="./src/Js/main.js"></script>
+</html>

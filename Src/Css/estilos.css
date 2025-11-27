@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #373a0b88;
+}
+
+.cabecalho {
+  background-color: #373a0b;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container .produtos {
+  color: #373a0b;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 32px;
+  letter-spacing: 2.1px;
+}
+
+.container .filtros {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.container .categoria-cartas,
+.container .preco-cartas {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.container label {
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #373a0b;
+}
+
+.container .categoria-cartas select,
+.container .preco-cartas input {
+  padding: 16px 10px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border: 2px solid #373a0b;
+  background-color: #3a0b0b00;
+  color: #373a0b;
+  font-weight: bold;
+  height: 52px;
+}
+
+.container select:focus,
+.container input:focus,
+.container select:focus-visible,
+.container input:focus-visible {
+  outline: none;
+}
+
+.container select.categoria {
+  appearance: none;
+  background: url(../Imagens/seta-para-baixo.png) 97% center no-repeat;
+}
+
+.container .filtros .btn-filtrar {
+  border: none;
+  background-color: #373a0b;
+  color: #ededed;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 16px 32px;
+  align-self: end;
+  width: 177px;
+  border-radius: 5px;
+  height: 52px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.32s;
+}
+
+.container .filtros .btn-filtrar:hover {
+  background-color: #232507;
+}
+
+select option {
+  background-color: #373a0b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container .cartas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+  margin-top: 32px;
+}
+
+.container .cartas .carta {
+  max-width: 355px;
+  background-color: #373a0b88;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
+}
+
+.container .carta img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  padding: 20px;
+}
+.container .carta img:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  margin: none;
+}
+
+.container .informacoes {
+  background-color: #ffffff83;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.container .carta .informacoes .nome-personagem {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container .carta .informacoes .categoria {
+  color: #373a0b;
+  font-weight: 700;
+}
+
+.container .carta .informacoes .preco {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #077e23;
+}
+
+.container .carta .informacoes .btn-comprar {
+  color: #ededed;
+  background-color: #373a0b;
+  padding: 16px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container .carta .informacoes .btn-comprar:hover {
+  background-color: #232507;
+}
+
+.rodape {
+  display: flex;
+  background-color: #373a0b;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 60px;
+  color: #ededed;
+}
+
+.mensagem-sem-resultados {
+  display: none;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+  font-size: 2.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.esconde {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
