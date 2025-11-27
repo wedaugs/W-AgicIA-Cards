@@ -52,14 +52,16 @@ Neste projeto, apliquei conceitos importantes de desenvolvimento web:
 ## 🚀 Como executar o projeto
 
 1. Clone este repositório:
+
    ```bash
    git clone [https://github.com/wedaugs/W-AgicIA-Cards.git](https://github.com/wedaugs/W-AgicIA-Cards.git)
-   Entre na pasta do projeto:
    ```
 
-Bash
-cd W-AgicIA-Cards
-Abra o arquivo index.html no seu navegador.
+2. Entre na pasta do projeto:
+
+   cd W-AgicIA-Cards
+
+3. Abra o arquivo index.html no seu navegador.
 
 👨‍💻 Autor
 <a href="https://www.google.com/search?q=https://github.com/wedaugs"> <img style="border-radius: 50%;" src="https://www.google.com/search?q=https://avatars.githubusercontent.com/wedaugs" width="100px;" alt=""/> <br /> <sub><b>Wederson A Santos</b></sub> </a>
