@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         carta.style.display = ""; // Mostra a carta
         temCartaVisivel = true;
       } else {
-        carta.style.display = "none"; // Esconde a carta
+        carta.style.display = "none";
       }
     });
 
