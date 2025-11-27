@@ -107,7 +107,7 @@ select option {
 .container .cartas .carta {
   max-width: 355px;
   background-color: #373a0b88;
-  color: #fff;
+  color: #373a0b;
   border-radius: 20px;
   box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
 }
@@ -183,12 +183,4 @@ select option {
   color: black;
   font-size: 2.2rem;
   font-family: "Roboto", sans-serif;
-}
-
-.esconde {
-  display: none;
-}
-
-.mostrar {
-  display: block;
 }
